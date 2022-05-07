@@ -1,0 +1,16 @@
+.mat-card-grocery-list {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.toolbar-icon {
+  border: none;
+  float: right;
+  background: none;
+  color: #008cba;
+}
+
+.btn-add{
+  float: right;
+  margin-top: 10px;
+}

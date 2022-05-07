@@ -1,0 +1,13 @@
+
+<li class="list-group-item" [ngClass]="toggleClass()">
+    <span>
+        <input type="checkbox" class="form-check-input" id="complete" [(ngModel)]="isDone" (change)="onChange($event)">
+        <label for="complete" class="form-check-label lead" style="pointer-events: none;">{{itemInput.name}}</label>
+    </span>
+    <span class="example-spacer"></span>
+    <div class="action-buttons">
+        <button mat-icon-button class="icon-right" style="border: none; color: #008cba" (click)="deleteItem(itemInput)">
+            <mat-icon>delete</mat-icon>
+          </button>
+    </div>
+</li> 

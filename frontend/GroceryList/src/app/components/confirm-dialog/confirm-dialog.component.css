@@ -1,0 +1,19 @@
+.mat-dialog-actions {
+    float: right;
+}
+
+.yes-button {
+    border: none;
+    background-color: #008cba;
+    color: white;
+    border-radius: 2px;
+    padding: 6px 20px;
+}
+
+.no-button {
+    border: none;
+    background-color: lightgray;
+    margin-right: 10px;
+    padding: 6px 20px;
+}
+

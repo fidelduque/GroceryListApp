@@ -1,0 +1,15 @@
+.lead {
+    margin-left: 5px;
+}
+
+.action-buttons{
+    float: right;
+}
+
+.icon-right{
+    background-color: transparent;
+}
+
+.item-done label {
+    text-decoration: line-through;
+}
