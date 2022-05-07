@@ -18,6 +18,14 @@ Created using Angular 13 with Material UI. To run this app, open the folder in V
  npm start
 ```
 
+The comunication between both environments is being done through web services and api. For external (non local) tests. Please refer to:
+
+```sh
+GroceryListApp/Frontend/GroceryList/src/environments/environment.ts
+there, you'll find
+apiUrl: 'https://localhost:7085/'
+```
+
 ## Features
 
 - Add a new Grocery to the list
